@@ -14,8 +14,8 @@
   }
   
   .Messages-list {
-    padding: 20px 0;
-    max-width: 900px;
+    padding: 25px 0;
+    max-width: 950x;
     width: 100%;
     margin: 0 auto;
     list-style: none;
@@ -47,9 +47,9 @@
   
   .Message-content > .username {
     display: block;
-    color: gray;
-    font-size: 14px;
-    padding-bottom: 4px;
+    color: rgb(140, 136, 136);
+    font-size: 15px;
+    padding-bottom: 5px;
   }
   
   .Message-content > .text {
