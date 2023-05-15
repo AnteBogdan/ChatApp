@@ -18,6 +18,8 @@ class Messages extends Component {
     const messageFromMe = member.id === currentMember.id;
     const className = messageFromMe ?
       "Messages-message currentMember" : "Messages-message";
+
+      
     return (
       <li className={className}>
       <span
@@ -32,7 +34,7 @@ class Messages extends Component {
         </div>
       </li>
     );
-  }
+ }
 }
 
 export default Messages;

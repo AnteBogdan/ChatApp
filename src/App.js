@@ -84,10 +84,11 @@ class App extends Component {
   }
 
   onSendMessage = (message) => {
+    if (message.trim() !== ""){
     this.drone.publish({
       room: "observable-room",
       message
-    });
+    });}
   }
 
 }
