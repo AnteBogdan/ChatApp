@@ -11,6 +11,7 @@ class Messages extends Component {
     );
   }
 
+  // Render an individual message
   renderMessage(message) {
     const {member, text} = message;
     const {currentMember} = this.props;

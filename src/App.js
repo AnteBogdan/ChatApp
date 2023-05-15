@@ -44,6 +44,7 @@ class App extends Component {
     }
   }
 
+  //Scaledrone client with the API key
   constructor() {
     super();
     this.drone = new window.Scaledrone("57evh88XNhgBUBZO", {

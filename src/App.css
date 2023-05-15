@@ -63,7 +63,7 @@
   }
   
   .currentMember > .Message-content .text {
-    background-color: orangered;
+    background-color: rgb(198, 18, 8);
   }
   
   form {
@@ -90,4 +90,9 @@
     border: none;
     border-radius: 8px;
     margin-left: 10px;
+  }
+
+  .Messages-message.currentMember {
+    flex-direction: row-reverse;
+    text-align: right;
   }
